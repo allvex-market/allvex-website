@@ -1,1 +1,86 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Allvex - Global Business Marketplace</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f5f7fb;color:#172033}
+header{background:#102b50;color:white;padding:18px 5%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:15px}
+.logo{font-size:27px;font-weight:bold;color:#54d6c5}
+nav a{color:white;text-decoration:none;margin:8px;font-size:14px}
+.hero{text-align:center;padding:65px 20px;background:linear-gradient(130deg,#102b50,#176b87);color:white}
+.hero h1{font-size:38px;margin-bottom:15px}
+.hero p{font-size:17px;margin-bottom:25px}
+.search{max-width:600px;margin:auto;display:flex;background:white;padding:6px;border-radius:8px}
+.search input{flex:1;min-width:0;border:0;padding:13px;font-size:15px}
+.search button{background:#13a88a;color:white;border:0;padding:12px 20px;border-radius:6px}
+section{padding:40px 6%}
+h2{text-align:center;margin-bottom:25px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:18px}
+.card{background:white;padding:25px;border-radius:12px;box-shadow:0 3px 14px #00000010;text-align:center}
+.card h3{margin:12px 0}
+.card p{color:#657084;font-size:14px;line-height:1.5}
+.card a{display:inline-block;margin-top:15px;color:#087f70;font-weight:bold;text-decoration:none}
+.join{background:#e4f5f2;text-align:center;padding:45px 20px}
+.btn{display:inline-block;background:#087f70;color:white;padding:13px 22px;border-radius:7px;text-decoration:none;margin:8px}
+footer{background:#102b50;color:white;text-align:center;padding:25px}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">ALLVEX</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#products">Products</a>
+<a href="#services">Services</a>
+<a href="#jobs">Jobs</a>
+<a href="#login">Login</a>
+</nav>
+</header>
+<div class="hero" id="home">
+<h1>Welcome to Allvex</h1>
+<p>One Marketplace. Unlimited Business Opportunities.</p>
+<div class="search">
+<input type="search" placeholder="Search products, services and jobs">
+<button onclick="alert('Search feature coming soon!')">Search</button>
+</div>
+</div>
+<section id="products">
+<h2>Explore Products</h2>
+<div class="grid">
+<div class="card"><h3>📱 Mobile Accessories</h3><p>Discover mobile accessories and electronics.</p><a href="#login">Explore</a></div>
+<div class="card"><h3>⚙️ Machine Parts</h3><p>Find bolts, gears and industrial components.</p><a href="#login">Explore</a></div>
+<div class="card"><h3>👕 Garments</h3><p>Clothing, uniforms and textile products.</p><a href="#login">Explore</a></div>
+<div class="card"><h3>🏭 Manufacturers</h3><p>Connect with manufacturers and suppliers.</p><a href="#login">Explore</a></div>
+</div>
+</section>
+<section id="services">
+<h2>Business Services</h2>
+<div class="grid">
+<div class="card"><h3>🛒 Buyer</h3><p>Find products and connect with sellers.</p></div>
+<div class="card"><h3>🏪 Seller</h3><p>Showcase your products and grow your business.</p></div>
+<div class="card"><h3>🤝 Job Work</h3><p>Connect with businesses for manufacturing work.</p></div>
+</div>
+</section>
+<section id="jobs">
+<h2>Jobs & Recruitment</h2>
+<div class="grid">
+<div class="card"><h3>Looking for a Job?</h3><p>Explore job opportunities and connect with employers.</p><a href="#login">Find Jobs</a></div>
+<div class="card"><h3>Hiring Employees?</h3><p>Find workers and skilled professionals for your company.</p><a href="#login">Post a Job</a></div>
+</div>
+</section>
+<section class="join" id="login">
+<h2>Join Allvex Today</h2>
+<p>Buy, Sell, Connect and Grow Your Business.</p>
+<a class="btn" href="mailto:allvex@example.com">Contact Us</a>
+</section>
+<footer>
+<p>© 2026 Allvex. All Rights Reserved.</p>
+<p>Global Business Marketplace</p>
+</footer>
+</body>
+</html>
+
